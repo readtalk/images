@@ -5,7 +5,7 @@ export default {
 		};
 
 		const response = await env.AI.run(
-			"@cf/stabilityai/stable-diffusion-xl-base-1.0",
+			"@cf/meta/llama-3.2-11b-vision-instruct",
 			inputs,
 		);
 
