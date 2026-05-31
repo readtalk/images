@@ -5,7 +5,7 @@ export default {
 		};
 
 		const response = await env.AI.run(
-			"black-forest-labs/flux-2-max",
+			"@cf/black-forest-labs/flux-1-schnell",
 			inputs,
 		);
 
