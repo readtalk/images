@@ -5,7 +5,7 @@ export default {
 		};
 
 		const response = await env.AI.run(
-			"@cf/bytedance/stable-diffusion-xl-lightning",
+			"@cf/lykon/dreamshaper-8-lcm",
 			inputs,
 		);
 
