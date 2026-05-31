@@ -5,7 +5,7 @@ export default {
 		};
 
 		const response = await env.AI.run(
-			"@cf/black-forest-labs/flux-1-schnell",
+			"google/imagen-4",
 			inputs,
 		);
 
