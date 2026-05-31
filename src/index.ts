@@ -5,7 +5,7 @@ export default {
 		};
 
 		const response = await env.AI.run(
-			"@cf/lykon/dreamshaper-8-lcm",
+			"black-forest-labs/flux-2-max",
 			inputs,
 		);
 
