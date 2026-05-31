@@ -5,7 +5,7 @@ export default {
 		};
 
 		const response = await env.AI.run(
-			"google/imagen-4",
+			"@cf/lykon/dreamshaper-8-lcm",
 			inputs,
 		);
 
