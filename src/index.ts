@@ -5,7 +5,7 @@ export default {
 		};
 
 		const response = await env.AI.run(
-			"@cf/black-forest-labs/flux-2-klein-9b",
+			"@cf/bytedance/stable-diffusion-xl-lightning",
 			inputs,
 		);
 
